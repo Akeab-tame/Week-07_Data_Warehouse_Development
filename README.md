@@ -61,13 +61,11 @@ Data_warehouse_Development/
 │    └── data_cleaning.log
 │
 ├── telegram_data_scrapper/
-├──   ├── build-dataset.py
-│     ├── main.py
-│     ├── channels-to-network.py
+├──   ├── Photos
+│     ├── tele_scraper.py
+│     ├── tele_scraper_lastid.py
 │     ├── output/
 │          └── data/...           
-├── schemas.py
-└── crud.py
 ```
 ## Technologies Used
 
