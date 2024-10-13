@@ -8,9 +8,9 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # PostgreSQL connection details
-DATABASE = 'data_WareHouse'
+DATABASE = 'medical_data'
 USER = 'postgres'
-PASSWORD = 'ocho'
+PASSWORD = 'Akeab'
 HOST = 'localhost'
 PORT = '5432'
 
