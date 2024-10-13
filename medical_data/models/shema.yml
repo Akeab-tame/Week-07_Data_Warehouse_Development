@@ -1,0 +1,17 @@
+
+version: 2
+source:
+  - name: public
+    schema: public
+    table:
+      - name: my_table
+
+
+models:
+  - name: medical_transformed
+    description: "Medical data transformed"
+    colunns:
+      - name: ID
+        description: "the ID of the Customer "
+        data_tests:
+          - not null
